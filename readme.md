@@ -7,11 +7,10 @@
 Personal mod of lime with better kerning, more distinguished characters, and powerline/icon support.
 
 
-#uushi
+#mushi
 
-![uushichars](http://a.pomf.se/3Cg6-983.png)
+![mushichars](mushi.png)
 
-![kvtie uushi](http://a.pomf.se/8Tl3.png)
 
 My take on Monaco. Overall, it's much less curved than lemon but still retains many of the same features and ideas (e.g, readability, icons, etc).
 
@@ -24,4 +23,4 @@ To enable powerline support, be sure to set powerline symbols to 'fancy'. To use
 
 ![icons-lemon](http://a.pomf.se/9Xz4.png)
 
-![icons-uushi](http://i.imgur.com/IouAScQ.png)
+![icons-mushi](http://i.imgur.com/IouAScQ.png)
