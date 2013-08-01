@@ -1,14 +1,16 @@
 #!/bin/sh
 
+if [ ! -d "pcf" ];then
+    mkdir pcf
+fi
+
 # Remove old files
-rm -f *.pcf *.bdf.bak fonts.dir fonts.scale
+rm -f pcf/*.pcf pcf/*.bdf.bak
 
 # Create PCF fonts
 for file in *.bdf; do
-    bdftopcf -o "${file%\.*}.pcf" "$file"
+    bdftopcf -o "pcf/${file%\.*}.pcf" "$file"
 done
 
 # Create X font register files
-mkfontdir
-mkfontscale
 xset fp rehash
